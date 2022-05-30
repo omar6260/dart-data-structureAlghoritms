@@ -26,3 +26,8 @@ These real-life scenarios mimic the queue data structure. Queues use first-in-fi
 Queues are handy when you need to maintain the order of your elements to 
 process later. 
 
+
+## chapter 4: 
+
+Queues are handy when you need to maintain the order of your elements to 
+
