@@ -10,12 +10,16 @@ class Node<T> {
   }
 }
 
-class LinkedList<E> extends Iterable<E> {
-  Node<E> _head;
-  Node<E> _tail;
+// class LinkedList<E> extends Iterable<E> {
+//   Node<E> _head;
+//   Node<E> _tail;
 
-  void push(E value) {
-    head = Node(value: value, next: head);
-    tail ??= head;
-  }
+//   void push(E value) {
+//     head = Node(value: value, next: head);
+//     tail ??= head;
+//   }
+// }
+
+void main(){
+  
 }
