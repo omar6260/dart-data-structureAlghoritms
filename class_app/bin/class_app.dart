@@ -9,7 +9,6 @@ void main() {
 class User {
   int id = 0;
   String name = '';
-
   String toJson() {
     return '{"id":$id, "name":"$name"}';
   }
@@ -86,6 +85,8 @@ void calculatedProperty() {
   final text = myPassword.obfuscated;
   print(text);
 }
+
+
 
 
 
