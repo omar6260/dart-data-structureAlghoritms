@@ -25,6 +25,16 @@ void printNames(List<String> names) {
   }
 }
 
+// Quadratic Time
+
+void printMorName(List<String> names) {
+  for (final _ in names) {
+    for (final name in names) {
+      print(name);
+    }
+  }
+}
+
 /* Key Points
 • Time complexity is a measure of the time required to run an algorithm as the 
 input size increases.
