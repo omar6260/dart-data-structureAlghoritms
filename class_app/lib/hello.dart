@@ -51,9 +51,17 @@ void main() {
 
   myValue *= 3;
 
-var age = 16;
-print(age);
-age = 30;
-print(age);
+  var age = 16;
+  print(age);
+  age = 30;
+  print(age);
 
+  const firstName = 'Oumar';
+  const lastName = 'Fall';
+
+  const fullName = firstName + ' ' + lastName;
+  print(fullName);
+
+  const myDetails = 'Hello, my name $fullName';
+  print(myDetails);
 }
